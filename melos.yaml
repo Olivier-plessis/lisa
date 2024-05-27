@@ -1,0 +1,22 @@
+name: "lisa"
+
+packages:
+  - app/**
+  - packages/*
+
+scripts:
+  generate_and_build:
+    run: |
+      melos clean
+      melos bs
+  analyze:
+    run: melos exec -- dart analyze .
+    description: Run `dart analyze` in all packages.
+
+  analyze:custom_lint:
+    run: melos exec -- dart run custom_lint
+  description: Run `dart custom_lint ` in all packages.
+
+  remove_unused_import:
+    run: melos exec -- dart fix --apply --code=unused_import
+    description: remove unused import in all file.
