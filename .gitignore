@@ -1,0 +1,6 @@
+pubspec_overrides.yaml
+.packages
+.pub/
+build/
+.idea/
+.dart_tool/
