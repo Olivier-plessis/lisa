@@ -44,6 +44,12 @@
       "languageVersion": "3.0"
     },
     {
+      "name": "clock",
+      "rootUri": "file:///Users/olivier/.pub-cache/hosted/pub.dev/clock-1.1.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "collection",
       "rootUri": "file:///Users/olivier/.pub-cache/hosted/pub.dev/collection-1.18.0",
       "packageUri": "lib/",
@@ -86,6 +92,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///Users/olivier/.pub-cache/hosted/pub.dev/intl-0.19.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.0"
+    },
+    {
       "name": "io",
       "rootUri": "file:///Users/olivier/.pub-cache/hosted/pub.dev/io-1.0.4",
       "packageUri": "lib/",
@@ -105,7 +117,7 @@
     },
     {
       "name": "melos",
-      "rootUri": "file:///Users/olivier/.pub-cache/hosted/pub.dev/melos-6.0.0",
+      "rootUri": "file:///Users/olivier/.pub-cache/hosted/pub.dev/melos-6.1.0",
       "packageUri": "lib/",
       "languageVersion": "3.0"
     },
@@ -248,10 +260,10 @@
       "languageVersion": "3.4"
     }
   ],
-  "generated": "2024-05-27T19:00:08.227681Z",
+  "generated": "2024-06-27T17:42:10.840109Z",
   "generator": "pub",
-  "generatorVersion": "3.4.1",
+  "generatorVersion": "3.4.3",
   "flutterRoot": "file:///Users/olivier/Development/flutter",
-  "flutterVersion": "3.22.1",
+  "flutterVersion": "3.22.2",
   "pubCache": "file:///Users/olivier/.pub-cache"
 }

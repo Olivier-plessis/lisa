@@ -20,3 +20,13 @@ scripts:
   remove_unused_import:
     run: melos exec -- dart fix --apply --code=unused_import
     description: remove unused import in all file.
+
+command:
+  bootstrap:
+    environment:
+      sdk: ">=3.4.3 <4.0.0"
+      flutter: ">=3.0.0 <4.0.0"
+    dependencies:
+
+    dev_dependencies:
+      flutter_lints: ^4.0.0

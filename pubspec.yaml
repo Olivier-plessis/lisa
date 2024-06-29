@@ -3,4 +3,4 @@ name: my_project
 environment:
   sdk: ">=3.4.1 <4.0.0"
 dependencies:
-  melos: ^6.0.0
+  melos: ^6.1.0
