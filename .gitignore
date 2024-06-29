@@ -4,3 +4,4 @@ pubspec_overrides.yaml
 build/
 .idea/
 .dart_tool/
+.DS_Store

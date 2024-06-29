@@ -21,6 +21,10 @@ scripts:
     run: melos exec -- dart fix --apply --code=unused_import
     description: remove unused import in all file.
 
+  generate:spider:
+    run: melos exec --depends-on="spider" -- spider build
+    description: Run spider to generate resources.
+
 command:
   bootstrap:
     environment:

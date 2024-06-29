@@ -13,6 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_screenutil: ^5.9.3
+  spider: ^4.2.2
 
 dev_dependencies:
   flutter_test:
@@ -20,6 +21,10 @@ dev_dependencies:
   flutter_lints: ^4.0.0
 
 flutter:
+  generate: true
+  assets:
+    - assets/
+    - assets/image/background/
 
   fonts:
     - family: Newake
